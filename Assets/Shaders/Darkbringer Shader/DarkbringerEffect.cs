@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace Picturesque.Darkbringer
-{
+
     [ExecuteInEditMode]
     public class DarkbringerEffect : MonoBehaviour
     {
@@ -182,4 +181,3 @@ namespace Picturesque.Darkbringer
         DitheringOnly,
         Full
     }*/
-}
