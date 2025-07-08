@@ -26,4 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Levels/BossFightScenes/Phase1.unity
     guid: 79fc8d71080772e448aeb0d8d3edf76b
+  - enabled: 1
+    path: Assets/Scene/Levels/BossFightScenes/Phase2.unity
+    guid: 5ab8e2d4c15b9234fbfddf7f218d3dec
+  - enabled: 1
+    path: Assets/Scene/Levels/BossFightScenes/Phase3.unity
+    guid: 2059b0dc48ccc174f9dd48951c38b3cd
+  - enabled: 1
+    path: Assets/Scene/Levels/The End.unity
+    guid: 92aaed34a54c3434094cd54cd3bf7b20
   m_configObjects: {}

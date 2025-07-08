@@ -46,6 +46,9 @@ public class SFPSC_PlayerMovement : MonoBehaviour
     private SFPSC_WallRun wallRun;
     private SFPSC_GrapplingHook grapplingHook;
 
+    [Header("Jump Sound")]
+    public AudioSource audioSource;
+
     private void Start()
     {
         rb = this.GetComponent<Rigidbody>();
@@ -100,6 +103,8 @@ public class SFPSC_PlayerMovement : MonoBehaviour
             if (Input.GetButton("Jump") && !jumpBlocked)
             {
                 rb.AddForce(-jumpForce * rb.mass * Vector3.down);
+                audioSource.Play(); // Play the sound
+
                 jumpBlocked = true;
                 Invoke("UnblockJump", jumpCooldown);
             }

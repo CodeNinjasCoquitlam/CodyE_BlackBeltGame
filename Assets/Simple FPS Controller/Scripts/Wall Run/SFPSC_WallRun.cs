@@ -34,6 +34,9 @@ public class SFPSC_WallRun : MonoBehaviour
     public float jumpBlockTime = 0.8f; // The jump function is blocked for this amount of seconds
     public float attachToWallBlockTime = 1.0f; // The attach to wall function is blocked for this amount of seconds
 
+    [Header("Jump Sound")]
+    public AudioSource audioSource;
+
     public bool IsWallRunning
     {
         get { return wallRunning; }
@@ -110,6 +113,7 @@ public class SFPSC_WallRun : MonoBehaviour
         {
             rb.AddForce((hitInfo.normal * jumpWallMultiplier + transform.forward * jumpForwardMultiplier + Vector3.up * jumpUpMultiplier).normalized * rb.mass * jumpForce);
             isJumpAvailable = false;
+            audioSource.Play(); // Play the sound
             Invoke(nameof(UnblockJump), jumpBlockTime);
         }
 
