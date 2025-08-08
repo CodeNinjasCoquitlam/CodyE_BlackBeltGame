@@ -133,42 +133,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2309123537578996572, guid: 41ee0c2ef67fabe43b18f11921142bbe, type: 3}
   m_PrefabInstance: {fileID: 1034414742}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &75217894
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/DarkBringerRefined_1_2
-  m_Shader: {fileID: 4800000, guid: 99d80d0fdb7c6724c89e77d81bbc026a, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BayerTex:
-        m_Texture: {fileID: 2800000, guid: eac7505667530464e91debe0b4a8492b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Lut2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!1001 &88117884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -507,6 +471,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4965371494005653118, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 778c90aa1bd251745ab28acbe83a3cbd, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
 --- !u!4 &277943718 stripped
@@ -1650,6 +1618,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41ee0c2ef67fabe43b18f11921142bbe, type: 3}
+--- !u!21 &953232766
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/DarkBringerRefined_1_2
+  m_Shader: {fileID: 4800000, guid: 99d80d0fdb7c6724c89e77d81bbc026a, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BayerTex:
+        m_Texture: {fileID: 2800000, guid: eac7505667530464e91debe0b4a8492b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lut2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!4 &972423572 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2309123537578996572, guid: 41ee0c2ef67fabe43b18f11921142bbe, type: 3}
@@ -3828,5 +3832,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: Skeleboss
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 387374408, guid: dee8c2b33023221489988a1848142034, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dee8c2b33023221489988a1848142034, type: 3}
+--- !u!1 &6951990335979055270 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7834864435059906052, guid: dee8c2b33023221489988a1848142034, type: 3}
+  m_PrefabInstance: {fileID: 6951990335979055269}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6951990335979055271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6951990335979055270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b288a7fc3cc0679449230da3a5469e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

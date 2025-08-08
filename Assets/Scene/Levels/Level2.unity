@@ -216,7 +216,7 @@ PrefabInstance:
     - target: {fileID: 4965371494005653118, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 05bf0a425f44e4b46ac75798b0e56625, type: 2}
+      objectReference: {fileID: 9100000, guid: 778c90aa1bd251745ab28acbe83a3cbd, type: 2}
     - target: {fileID: 5455480739179168384, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3447,42 +3447,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1554161176115921225, guid: f9e1a0158e9f7a545a16fa7c2aa7be4e, type: 3}
   m_PrefabInstance: {fileID: 176624669}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &832605501
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/DarkBringerRefined_1_2
-  m_Shader: {fileID: 4800000, guid: 99d80d0fdb7c6724c89e77d81bbc026a, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BayerTex:
-        m_Texture: {fileID: 2800000, guid: eac7505667530464e91debe0b4a8492b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Lut2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!1 &834604690 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3354483237132092406, guid: ad6aae32dd3eb844fa75e2a156bbe34f, type: 3}
@@ -5384,6 +5348,23 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300008, guid: f31206e3aa5c5ba4ca098413529f39f7, type: 3}
+--- !u!1 &1224410843 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7795169737713609802, guid: c76d5bc90ea23f64a97f8109a58aec6a, type: 3}
+  m_PrefabInstance: {fileID: 7795169737978421500}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1224410845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224410843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 919df3c681cc74544a3105256de348d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1225054948 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1554161176115921225, guid: f9e1a0158e9f7a545a16fa7c2aa7be4e, type: 3}
@@ -8789,9 +8770,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7220986072346222289, guid: 0d9d85399f9310e458b966faa3d36bdb, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220986072346222291, guid: 0d9d85399f9310e458b966faa3d36bdb, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220986072346222293, guid: 0d9d85399f9310e458b966faa3d36bdb, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7220986072346222295, guid: 0d9d85399f9310e458b966faa3d36bdb, type: 3}
       propertyPath: m_Name
       value: Corridor Corner Lights
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220986072346222295, guid: 0d9d85399f9310e458b966faa3d36bdb, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220986072346222299, guid: 0d9d85399f9310e458b966faa3d36bdb, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220986072346222301, guid: 0d9d85399f9310e458b966faa3d36bdb, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d9d85399f9310e458b966faa3d36bdb, type: 3}
@@ -8869,7 +8874,7 @@ PrefabInstance:
     - target: {fileID: 4965371494005653118, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 05bf0a425f44e4b46ac75798b0e56625, type: 2}
+      objectReference: {fileID: 9100000, guid: 580a5ed617df05742ac3f9f48432f7d3, type: 2}
     - target: {fileID: 5455480739179168384, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -9069,6 +9074,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a65198f3cbcab345bc0b33f23a45e76, type: 3}
+--- !u!21 &2125409257
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/DarkBringerRefined_1_2
+  m_Shader: {fileID: 4800000, guid: 99d80d0fdb7c6724c89e77d81bbc026a, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BayerTex:
+        m_Texture: {fileID: 2800000, guid: eac7505667530464e91debe0b4a8492b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lut2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!64 &1010889236772792716
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9606,6 +9647,18 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 726003506804234388, guid: c76d5bc90ea23f64a97f8109a58aec6a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8729681
+      objectReference: {fileID: 0}
+    - target: {fileID: 726003506804234388, guid: c76d5bc90ea23f64a97f8109a58aec6a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8729681
+      objectReference: {fileID: 0}
+    - target: {fileID: 726003506804234388, guid: c76d5bc90ea23f64a97f8109a58aec6a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8729681
+      objectReference: {fileID: 0}
+    - target: {fileID: 726003506804234388, guid: c76d5bc90ea23f64a97f8109a58aec6a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -192.38
       objectReference: {fileID: 0}
@@ -9649,7 +9702,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF_PortalGate
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3091329273409006743, guid: c76d5bc90ea23f64a97f8109a58aec6a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c76d5bc90ea23f64a97f8109a58aec6a, type: 3}
 --- !u!33 &8215637232196584528
 MeshFilter:

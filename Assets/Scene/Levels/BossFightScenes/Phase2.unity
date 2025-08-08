@@ -311,7 +311,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.13052608
+      value: -0.25881952
       objectReference: {fileID: 0}
     - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_LocalRotation.x
@@ -319,7 +319,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9914449
+      value: 0.96592575
       objectReference: {fileID: 0}
     - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_LocalRotation.z
@@ -331,12 +331,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 195
+      value: 210
       objectReference: {fileID: 0}
     - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4965371494005653118, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 778c90aa1bd251745ab28acbe83a3cbd, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
 --- !u!1001 &89791841
@@ -2028,6 +2032,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6951990336949125546, guid: dee8c2b33023221489988a1848142034, type: 3}
+    - {fileID: 387374408, guid: dee8c2b33023221489988a1848142034, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dee8c2b33023221489988a1848142034, type: 3}
 --- !u!1 &1311694106
 GameObject:
@@ -2071,42 +2076,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1387023628
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/DarkBringerRefined_1_2
-  m_Shader: {fileID: 4800000, guid: 99d80d0fdb7c6724c89e77d81bbc026a, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BayerTex:
-        m_Texture: {fileID: 2800000, guid: eac7505667530464e91debe0b4a8492b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Lut2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!1 &1389021414
 GameObject:
   m_ObjectHideFlags: 0
@@ -2800,6 +2769,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
   m_PrefabInstance: {fileID: 6713328010246751602}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1767871879
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/DarkBringerRefined_1_2
+  m_Shader: {fileID: 4800000, guid: 99d80d0fdb7c6724c89e77d81bbc026a, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BayerTex:
+        m_Texture: {fileID: 2800000, guid: eac7505667530464e91debe0b4a8492b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lut2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1 &1813674468
 GameObject:
   m_ObjectHideFlags: 0
