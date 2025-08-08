@@ -14,12 +14,12 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
-  m_FogDensity: 0.01
+  m_Fog: 1
+  m_FogColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
+  m_FogMode: 1
+  m_FogDensity: 0.1
   m_LinearFogStart: 0
-  m_LinearFogEnd: 300
+  m_LinearFogEnd: 134.32
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 6157e77161be94742a6612d93e0ca254, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -660,7 +660,7 @@ Transform:
   m_Children:
   - {fileID: 1050666190}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &132212429 stripped
 GameObject:
@@ -672,7 +672,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 418116352}
     m_Modifications:
     - target: {fileID: 2033886546264645911, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_Name
@@ -683,28 +683,36 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.17647511
+      objectReference: {fileID: 0}
+    - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2721993
+      objectReference: {fileID: 0}
+    - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -89.45368
+      value: 0.48790327
       objectReference: {fileID: 0}
     - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.0985699
+      value: 0.038570404
       objectReference: {fileID: 0}
     - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 253.07144
+      value: -0.88377726
       objectReference: {fileID: 0}
     - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8660256
+      value: -0.8660257
       objectReference: {fileID: 0}
     - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.49999967
+      value: 0.49999952
       objectReference: {fileID: 0}
     - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1265,7 +1273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amplitude: 0.5
-  frequency: 6
+  frequency: 1
 --- !u!1 &382710671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,7 +1340,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &390478234 stripped
 GameObject:
@@ -1351,8 +1359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e33cbbf28c173e946a2ca24aa309be7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 3
-  frequency: 2
+  amplitude: 0.5
+  frequency: 1
 --- !u!1 &402610229 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3116622003559459302, guid: 41ee0c2ef67fabe43b18f11921142bbe, type: 3}
@@ -2064,7 +2072,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &550824802
 PrefabInstance:
@@ -2204,7 +2212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amplitude: 0.5
-  frequency: 6
+  frequency: 1
 --- !u!1001 &571651802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2220,9 +2228,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 7313138801849793484, guid: 5378d8164c111a64fb1b3fd2e82a6655, type: 3}
+      propertyPath: field of view
+      value: 58.73395
+      objectReference: {fileID: 0}
+    - target: {fileID: 7313138801849793484, guid: 5378d8164c111a64fb1b3fd2e82a6655, type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 7313138801849793485, guid: 5378d8164c111a64fb1b3fd2e82a6655, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7313138801849793485, guid: 5378d8164c111a64fb1b3fd2e82a6655, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2272,50 +2288,10 @@ PrefabInstance:
       propertyPath: CameraPosition
       value: 
       objectReference: {fileID: 1437933264}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1527806035, guid: 5378d8164c111a64fb1b3fd2e82a6655, type: 3}
+    - {fileID: 1527806034, guid: 5378d8164c111a64fb1b3fd2e82a6655, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5378d8164c111a64fb1b3fd2e82a6655, type: 3}
---- !u!1 &571651803 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7313138801849793481, guid: 5378d8164c111a64fb1b3fd2e82a6655, type: 3}
-  m_PrefabInstance: {fileID: 571651802}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &571651804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571651803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8ceb7002f4f07048ab9ca3db819985b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  effect: {fileID: 571651803}
---- !u!114 &571651805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571651803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1a4c69f7a9d3ea43907b5765229dc85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &571651806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571651803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 433faa8b758afed4f9295b193c697276, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &573283276
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2819,7 +2795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amplitude: 0.5
-  frequency: 6
+  frequency: 1
 --- !u!1001 &646946262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3084,7 +3060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e33cbbf28c173e946a2ca24aa309be7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 3
+  amplitude: 2
   frequency: 1
 --- !u!1 &786641810 stripped
 GameObject:
@@ -3120,6 +3096,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2309123537578996572, guid: 41ee0c2ef67fabe43b18f11921142bbe, type: 3}
   m_PrefabInstance: {fileID: 338626269}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &801880123
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/DarkBringerRefined_1_2
+  m_Shader: {fileID: 4800000, guid: 99d80d0fdb7c6724c89e77d81bbc026a, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BayerTex:
+        m_Texture: {fileID: 2800000, guid: eac7505667530464e91debe0b4a8492b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lut2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1 &848582181 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4175263478532508109, guid: 41ee0c2ef67fabe43b18f11921142bbe, type: 3}
@@ -3619,8 +3631,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e33cbbf28c173e946a2ca24aa309be7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 3
-  frequency: 2
+  amplitude: 0.5
+  frequency: 1
 --- !u!1 &990171530 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3116622003559459302, guid: 41ee0c2ef67fabe43b18f11921142bbe, type: 3}
@@ -4487,8 +4499,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e33cbbf28c173e946a2ca24aa309be7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 2.5
-  frequency: 2
+  amplitude: 0.5
+  frequency: 1
 --- !u!1 &1211392128
 GameObject:
   m_ObjectHideFlags: 0
@@ -4572,7 +4584,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1211392133
 MonoBehaviour:
@@ -4654,7 +4666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e33cbbf28c173e946a2ca24aa309be7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 2
+  amplitude: 0.5
   frequency: 1
 --- !u!114 &1278184138
 MonoBehaviour:
@@ -4688,7 +4700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amplitude: 0.5
-  frequency: 4
+  frequency: 2
 --- !u!1001 &1331872439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4815,7 +4827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amplitude: 0.5
-  frequency: 1
+  frequency: 3
 --- !u!1001 &1343386588
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4995,7 +5007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amplitude: 0.5
-  frequency: 6
+  frequency: 1
 --- !u!1 &1397311484 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3116622003559459302, guid: 41ee0c2ef67fabe43b18f11921142bbe, type: 3}
@@ -5014,7 +5026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amplitude: 0.5
-  frequency: 6
+  frequency: 1
 --- !u!1 &1399612165 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3116622003559459302, guid: 41ee0c2ef67fabe43b18f11921142bbe, type: 3}
@@ -5041,7 +5053,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2061837813272003314, guid: ec40b129bf2532b459433664cfadc374, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2061837813272003314, guid: ec40b129bf2532b459433664cfadc374, type: 3}
       propertyPath: m_AnchorMax.x
@@ -5448,7 +5460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e33cbbf28c173e946a2ca24aa309be7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 2
+  amplitude: 0.5
   frequency: 1
 --- !u!1001 &1548608915
 PrefabInstance:
@@ -5806,7 +5818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e33cbbf28c173e946a2ca24aa309be7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 0.5
+  amplitude: 3
   frequency: 1
 --- !u!114 &1582171078
 MonoBehaviour:
@@ -5820,7 +5832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e33cbbf28c173e946a2ca24aa309be7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 2
+  amplitude: 0.5
   frequency: 1
 --- !u!114 &1584682674
 MonoBehaviour:
@@ -5835,7 +5847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amplitude: 0.5
-  frequency: 6
+  frequency: 1
 --- !u!1001 &1613818943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5849,7 +5861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5981,7 +5993,7 @@ Transform:
   - {fileID: 2064236525}
   - {fileID: 1341752334}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1635691157 stripped
 GameObject:
@@ -6014,8 +6026,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e33cbbf28c173e946a2ca24aa309be7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 3
-  frequency: 2
+  amplitude: 0.5
+  frequency: 1
 --- !u!114 &1663829131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6029,7 +6041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amplitude: 0.5
-  frequency: 6
+  frequency: 1
 --- !u!1001 &1696849432
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6279,7 +6291,7 @@ PrefabInstance:
       objectReference: {fileID: 1975465785}
     - target: {fileID: 6019071519165140607, guid: 304f19585968220409b1ba58dc98d4c0, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6019071519165140607, guid: 304f19585968220409b1ba58dc98d4c0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6592,7 +6604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e33cbbf28c173e946a2ca24aa309be7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 5
+  amplitude: 3
   frequency: 1
 --- !u!1 &1779059560 stripped
 GameObject:
@@ -6625,8 +6637,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e33cbbf28c173e946a2ca24aa309be7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 1
-  frequency: 2
+  amplitude: 0.5
+  frequency: 1
 --- !u!114 &1800225965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6639,8 +6651,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e33cbbf28c173e946a2ca24aa309be7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 3
-  frequency: 2
+  amplitude: 0.5
+  frequency: 1
 --- !u!1 &1803041223 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3116622003559459302, guid: 41ee0c2ef67fabe43b18f11921142bbe, type: 3}
@@ -6659,43 +6671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amplitude: 0.5
-  frequency: 6
---- !u!21 &1864075933
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/DarkBringerRefined_1_2
-  m_Shader: {fileID: 4800000, guid: 99d80d0fdb7c6724c89e77d81bbc026a, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BayerTex:
-        m_Texture: {fileID: 2800000, guid: eac7505667530464e91debe0b4a8492b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Lut2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
+  frequency: 1
 --- !u!1 &1902862521
 GameObject:
   m_ObjectHideFlags: 0
@@ -7402,7 +7378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amplitude: 0.5
-  frequency: 6
+  frequency: 1
 --- !u!1001 &2021854471
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7658,7 +7634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e33cbbf28c173e946a2ca24aa309be7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 0.5
+  amplitude: 1
   frequency: 1
 --- !u!1001 &2067010043
 PrefabInstance:
@@ -7959,7 +7935,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amplitude: 0.5
-  frequency: 6
+  frequency: 1
 --- !u!23 &78294969865766390
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8863,7 +8839,7 @@ Transform:
   - {fileID: 4484821068681096643}
   - {fileID: 1934327768638017515}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 45.687, z: 0}
 --- !u!23 &8443819551032751452
 MeshRenderer:
