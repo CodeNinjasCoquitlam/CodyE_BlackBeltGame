@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0736998, g: 0.07461912, b: 0.09333183, a: 1}
+  m_IndirectSpecularColor: {r: 0.1864509, g: 0.19138521, b: 0.19612661, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -576,15 +576,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 2.9192
       objectReference: {fileID: 0}
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 2.9192
       objectReference: {fileID: 0}
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 2.9192
       objectReference: {fileID: 0}
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2364,6 +2364,10 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.0233
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.2944381
       objectReference: {fileID: 0}
@@ -2432,8 +2436,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1041351875}
   m_LocalRotation: {x: 0.49999994, y: -0.50000024, z: -0.5, w: 0.49999982}
-  m_LocalPosition: {x: -17.16, y: 535.17, z: -523.9}
-  m_LocalScale: {x: 34.490204, y: 1, z: 7.995172}
+  m_LocalPosition: {x: -17.25, y: 535.17, z: -523.9}
+  m_LocalScale: {x: 34.490204, y: 1, z: 6.2850046}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1617441616}
@@ -2601,42 +2605,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1116441532}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!21 &1130854706
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/DarkBringerRefined_1_2
-  m_Shader: {fileID: 4800000, guid: 99d80d0fdb7c6724c89e77d81bbc026a, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BayerTex:
-        m_Texture: {fileID: 2800000, guid: eac7505667530464e91debe0b4a8492b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Lut2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!4 &1158506467 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
@@ -2713,6 +2681,10 @@ PrefabInstance:
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.1949363
       objectReference: {fileID: 0}
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3323,6 +3295,10 @@ PrefabInstance:
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.1949363
       objectReference: {fileID: 0}
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3940,7 +3916,7 @@ Transform:
   m_GameObject: {fileID: 1392620765}
   m_LocalRotation: {x: 0.49999994, y: -0.50000024, z: -0.5, w: 0.49999982}
   m_LocalPosition: {x: -17.124, y: 535.17, z: -492.50003}
-  m_LocalScale: {x: 34.490204, y: 1, z: 7.995172}
+  m_LocalScale: {x: 34.490204, y: 1, z: 6.2850046}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1557958613}
@@ -4237,8 +4213,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464889877}
   m_LocalRotation: {x: 0.49999994, y: -0.50000024, z: -0.5, w: 0.49999982}
-  m_LocalPosition: {x: -19.9, y: 528.2, z: -273.39996}
-  m_LocalScale: {x: 10.087974, y: 1, z: 15.480119}
+  m_LocalPosition: {x: -19.9, y: 526.83, z: -273.39996}
+  m_LocalScale: {x: 8.63349, y: 1, z: 15.480119}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1929994818}
@@ -4336,7 +4312,7 @@ Transform:
   m_GameObject: {fileID: 1483908538}
   m_LocalRotation: {x: 0.49999994, y: -0.50000024, z: -0.5, w: 0.49999982}
   m_LocalPosition: {x: -24.132, y: 535.17, z: -505.4}
-  m_LocalScale: {x: 34.490204, y: 1, z: 7.995172}
+  m_LocalScale: {x: 34.490204, y: 1, z: 6.2850046}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1712056404}
@@ -4791,8 +4767,8 @@ GameObject:
   - component: {fileID: 1649780380}
   - component: {fileID: 1649780384}
   - component: {fileID: 1649780383}
-  - component: {fileID: 1649780382}
   - component: {fileID: 1649780381}
+  - component: {fileID: 1649780385}
   m_Layer: 3
   m_Name: Plane
   m_TagString: Untagged
@@ -4827,20 +4803,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8145c4be169a7644b8c0ed1b4602912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!64 &1649780382
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1649780379}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1649780383
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4891,6 +4853,55 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649780379}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1649780385
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649780379}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.321632, y: 2.4160673e-12, z: 10.000001}
+  m_Center: {x: 0.33920333, y: 1.4423684e-14, z: 0.00000031959402}
+--- !u!21 &1668530845
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/DarkBringerRefined_1_2
+  m_Shader: {fileID: 4800000, guid: 99d80d0fdb7c6724c89e77d81bbc026a, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BayerTex:
+        m_Texture: {fileID: 2800000, guid: eac7505667530464e91debe0b4a8492b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lut2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1001 &1676019527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5197,15 +5208,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 2.9192
       objectReference: {fileID: 0}
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 2.9192
       objectReference: {fileID: 0}
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 2.9192
       objectReference: {fileID: 0}
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5367,15 +5378,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 2.9192
       objectReference: {fileID: 0}
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 2.9192
       objectReference: {fileID: 0}
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 2.9192
       objectReference: {fileID: 0}
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5547,7 +5558,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: de375eeb2d4818246bda8a168debf0d8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a332163005224d24ba7802a3a6be117c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -5893,6 +5904,10 @@ PrefabInstance:
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.1949363
       objectReference: {fileID: 0}
     - target: {fileID: 6713328010712005930, guid: c57bce64e77cc2c479ac9a128f712dad, type: 3}
       propertyPath: m_LocalPosition.x
