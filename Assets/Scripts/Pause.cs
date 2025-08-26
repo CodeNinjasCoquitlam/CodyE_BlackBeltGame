@@ -16,9 +16,14 @@ public class Pause : MonoBehaviour
             TogglePause();
         }
 
-        
+        if (isPaused && Input.GetKeyDown(KeyCode.M))
+        {
+            QuitGame();
+        }
 
-        
+
+
+
     }
 
     public void TogglePause()
@@ -36,6 +41,20 @@ public class Pause : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    
+
+    public void QuitGame()
+    {
+        // Add logic to quit or go to main menu
+        Debug.Log("Quitting game...");
+        isPaused = false;
+        pauseMenu.SetActive(false);
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Title Screen");
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
+
+
 
 }
