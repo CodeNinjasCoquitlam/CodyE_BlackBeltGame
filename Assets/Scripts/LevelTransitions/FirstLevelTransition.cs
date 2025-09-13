@@ -15,6 +15,10 @@ public class FirstLevelTransition : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void Training()
+    {
+        SceneManager.LoadScene(10);
+    }
     public void Quit()
     {
         Application.Quit();
