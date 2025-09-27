@@ -1,0 +1,31 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class FirstLevelTransition : MonoBehaviour
+{
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void Transition()
+    {
+        SceneManager.LoadScene(1);
+    }
+    public void Training()
+    {
+        SceneManager.LoadScene(10);
+    }
+    public void Credits()
+    {
+        SceneManager.LoadScene(11);
+    }
+    public void Quit()
+    {
+        Application.Quit();
+        Debug.Log("Quited!");
+    }
+}
